@@ -32,3 +32,5 @@ while MIN_PRICE <= price <= MAX_PRICE:
 
 
 out_file.close()
+
+#From the random module, we specifically use the randint() function to determine the 50% chance of increase or decrease in price, and the uniform() function to generate a random floating-point number for the price change.
